@@ -1,0 +1,25 @@
+.navbar {
+	display: flex;
+	font-weight: bold;
+	justify-content: flex-end;
+}
+
+nav {
+	display: flex;
+	font-size: 18px;
+	margin: 10px 30px auto auto;
+
+}
+
+@media only screen and (max-width: 680px) {
+    header nav {
+        flex-direction: column;
+    }
+}
+
+ul {
+	display: flex;
+}
+
+
+

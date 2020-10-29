@@ -1,0 +1,18 @@
+.header {
+    text-align: center;
+}
+
+span {
+    color: green;
+}
+
+.short-desc {
+    margin-top: 0%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title {
+    margin-bottom: 0%;
+    font-size: 35px;
+}

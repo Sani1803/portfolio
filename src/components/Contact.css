@@ -1,0 +1,65 @@
+.contactHead {
+    color: white;
+}
+
+.contact-section {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    padding-bottom: 50px;
+    max-width: 1300px;
+}
+
+.map-img {
+    width: 50%;
+    margin: auto;
+}
+
+.icon-c {
+    width: auto;
+    height: 30px;
+}
+
+.contact-text {
+    flex: 1;
+}
+
+.contact-map {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.info .text {
+    padding-left: 20px;
+}
+
+.contact-info .contact-text .social-media {
+    display: flex !important;
+    justify-content: center;
+}
+
+.social-media .icon-c {
+    margin-right: 20px ;
+}
+
+.social-media .container {
+    display: flex;
+}
+
+@media only screen and (max-width: 680px) {
+    
+}

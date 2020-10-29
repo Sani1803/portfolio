@@ -1,0 +1,37 @@
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 80px 0;
+    align-items: center;
+}
+.about-me {
+    display: flex;
+    max-width: 1300px;
+    align-items: center;
+}
+
+.img-container {
+    flex: 1;
+    text-align: center;
+}
+
+.text-container {
+    flex: 2;
+    margin: 0 30px;
+}
+
+.about-me-img {
+    height: auto;
+    width: 240px;
+}
+
+.about-me-text {
+    margin: auto, 0, auto, 0;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 680px) {
+    .about-me {
+        flex-direction: column;
+    }
+}
