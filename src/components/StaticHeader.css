@@ -3,7 +3,7 @@
 }
 
 span {
-    color: red;
+    color: rgb(226, 0, 0);
 }
 
 .short-desc {
@@ -15,4 +15,6 @@ span {
 .title {
     margin-bottom: 0%;
     font-size: 35px;
+    margin-top: 0;
+    padding-top: 30px;
 }

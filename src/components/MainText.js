@@ -63,7 +63,7 @@ class MainText extends Component {
             document.body.appendChild(css);
           };
 
-          const element = <FontAwesomeIcon icon={faDownload} />
+          const element = <FontAwesomeIcon className="iconCV" icon={faDownload} />
         return (
             <div className="intro">
                 <p className="hello">Hello, my name is</p>

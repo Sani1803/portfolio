@@ -13,7 +13,8 @@
 .pa-img {
     max-width: 65%;
     height: auto;
-    box-shadow: 2px 5px rgba(70, 1, 1, 0.911);
+    box-shadow: 10px 10px rgb(148, 25, 25);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .descr-pa-section {
@@ -27,22 +28,56 @@
     max-width: 75%;
     text-align: justify;
     padding: 5%;
-    background-color: rgb(56, 56, 56);
+    background-image: url(./img/download.jpg);
+    background-size: cover;
     color: white;
-    border: 3px solid rgb(32, 13, 13);
-    box-shadow: 2px 5px rgba(70, 1, 1, 0.911);
-    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px rgb(148, 25, 25);
     margin-left: 25px;
     height: 100%;
 }
 
+.title-pa {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #4682b4;
+    font-size: 30px;
+}
+
 .pa-info {
-    padding-bottom: 30px;
     margin-top: 30px;
 }
 
-.pa-btn {
+.pa-btns {
     margin-top: 50px;
+}
+
+.pa-btn {
+    width: 120px;
+    height: 35px;
+    background-color: #4682b4;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border: black;
+}
+
+.pa-btn1 {
+    width: 120px;
+    height: 35px;
+    color: #4682b4;
+    font-weight: bold;
+    font-size: 15px;
+    border: black;
+}
+
+.pa-btn:hover {
+    background-color: grey;
+    color: white;
+}
+
+.pa-btn1:hover {
+    background-color: grey;
+    color: white;
 }
 
 @media only screen and (max-width: 680px) {

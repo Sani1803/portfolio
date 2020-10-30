@@ -23,11 +23,14 @@
 .about-me-img {
     height: auto;
     width: 240px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px rgb(161, 0, 0);
 }
 
 .about-me-text {
     margin: auto, 0, auto, 0;
     text-align: justify;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 680px) {

@@ -37,6 +37,11 @@
     height: 100px;
 }
 
+.icon:hover {
+    transition: 0.9s;
+    transform: rotateY(180deg);
+}
+
 @media (max-width:900px) and (min-width:680px) {
     .icons {
         width: 33%;

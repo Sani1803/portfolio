@@ -9,14 +9,19 @@ export class CardsList extends Component {
 
                 <div className="descr-cards-section">
                     <div className="desc-cards">
-                        <h2>Color Game Project</h2>
+                        <h2 className="title-cards">Card List filter</h2>
                         <div className="cards-info">
-                        This is my first ever game made with HTML, CSS and Javascript. 
-                        It is a Color Guessing Game with the help of RGB colors where you have to guess the right color.
+                        It's a react app for filtering data. You have different type of cards taken from the server and with
+                        this app you can filter them by: text, color and type. You can also use the ascending/descending option, to sort them
+                        by alphabetical order.
+                        <br/>
+                        <br/>
+                        <br/>
+                        HTML, CSS, JavaScript, React
                         </div>
-                        <div className="cards-btn">
-                            <button>Website</button>
-                            <button>Code</button>
+                        <div className="cards-btns">
+                            <button className="cards-btn">Website</button>
+                            <button className="cards-btn1">Code</button>
                         </div>
                     </div>
                 </div>

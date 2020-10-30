@@ -9,14 +9,20 @@ export class ToDoList extends Component {
 
                 <div className="descr-todo-section">
                     <div className="desc-todo">
-                        <h2>Color Game Project</h2>
+                        <h2 className="title-todo">To-Do-List</h2>
                         <div className="todo-info">
-                        This is my first ever game made with HTML, CSS and Javascript. 
-                        It is a Color Guessing Game with the help of RGB colors where you have to guess the right color.
+                        It is a simple To-Do app. And who doesn't need one?
+                        Make your to-do list, add you items / chores and
+                        when you finish with them, just click the delete button. 
+                        If you want to add another item that you forgot, just click the + sign.                   
+                        <br/>
+                        <br/>
+                        <br/>
+                        HTML, CSS, JavaScript, jQuery
                         </div>
-                        <div className="todo-btn">
-                            <button>Website</button>
-                            <button>Code</button>
+                        <div className="todo-btns">
+                            <button className="todo-btn">Website</button>
+                            <button className="todo-btn1">Code</button>
                         </div>
                     </div>
                 </div>

@@ -13,14 +13,18 @@ export class ColorGame extends Component {
 
                 <div className="descr-cg-section">
                     <div className="desc-cg">
-                        <h2>Color Game Project</h2>
+                        <h2 className="title-cg">RGB Color Game</h2>
                         <div className="cg-info">
-                        This is my first ever game made with HTML, CSS and Javascript. 
                         It is a Color Guessing Game with the help of RGB colors where you have to guess the right color.
+                        It has two modes, easy and hard. In easy mode you have three color options and in hard, six color options. 
+                        <br/>
+                        <br/>
+                        <br/>
+                        HTML, CSS, JavaScript
                         </div>
-                        <div className="cg-btn">
-                            <button>Website</button>
-                            <button>Code</button>
+                        <div className="cg-btns">
+                            <button className="cg-btn" >Website</button>
+                            <button className="cg-btn1">Code</button>
                         </div>
                     </div>
                 </div>

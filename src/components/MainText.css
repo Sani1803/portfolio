@@ -35,12 +35,13 @@ h1 {
     background-color: #b9b5b5;
     font-size: 18px;
     font-weight: bold;
-    border: 3px solid rgb(32, 13, 13);
-    box-shadow: 2px 5px rgba(70, 1, 1, 0.911);
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.911);
     border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
+.cv:hover {
     padding: 8px;
+    width: 180px;
 }
