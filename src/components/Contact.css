@@ -61,5 +61,15 @@
 }
 
 @media only screen and (max-width: 680px) {
-    
+    .contact-info {
+        flex-direction: column;
+        max-width: 80%;
+    }
+    .ctext {
+        text-align: justify;
+    }
+    .map-img {
+        margin-top: 20px;
+    }
 }
+

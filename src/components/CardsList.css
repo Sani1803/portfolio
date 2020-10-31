@@ -1,7 +1,7 @@
 .cards-section {
     display: flex;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 8%;
 }
 
 .img-cards-section {
@@ -13,7 +13,7 @@
 .cards-img {
     max-width: 65%;
     height: auto;
-    box-shadow: 10px 10px rgb(148, 25, 25);
+    box-shadow: 10px 10px 10px rgb(53, 0, 0);
     border: 3px solid rgb(0, 0, 0);
 }
 
@@ -39,7 +39,7 @@
     background-size: cover;
     color: white;
     border: 3px solid rgb(0, 0, 0);
-    box-shadow: 10px 10px rgb(148, 25, 25);
+    box-shadow: 10px 10px 10px rgb(53, 0, 0);
     margin-left: 25px;
     height: 100%;
 }

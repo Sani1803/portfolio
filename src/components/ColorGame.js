@@ -6,10 +6,16 @@ export class ColorGame extends Component {
     render() {
         return (
             <div className="cg-section">
+                
 
                 <div className="img-cg-section">
                     <img className="cg-img"src={colorgame} alt="colorgame"></img>
+                    <div className="middle">
+                        <button className="middle-btn">Check it Out !!!</button>
+                    </div>
                 </div>
+
+
 
                 <div className="descr-cg-section">
                     <div className="desc-cg">

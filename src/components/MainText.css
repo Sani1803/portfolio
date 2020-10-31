@@ -26,6 +26,7 @@ h1 {
     color: rgba(143, 0, 0, 0.911);
     font-weight: bold;
     font-size: 40px;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 .cv {
@@ -36,7 +37,7 @@ h1 {
     font-size: 18px;
     font-weight: bold;
     border: 3px solid rgb(0, 0, 0);
-    box-shadow: 2px 5px rgba(0, 0, 0, 0.911);
+    box-shadow: 2px 5px 5px rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
 }
@@ -44,4 +45,14 @@ h1 {
 .cv:hover {
     padding: 8px;
     width: 180px;
+}
+
+@media only screen and (max-width: 680px) {
+    .hello {
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+    .cv {
+        margin-top: 100px;
+    }
 }

@@ -67,7 +67,7 @@ class MainText extends Component {
         return (
             <div className="intro">
                 <p className="hello">Hello, my name is</p>
-                <h1>Aleksandra Gjurova</h1>
+                <h1 className="main-name">Aleksandra Gjurova</h1>
                 <p className="list">And I am &nbsp;
                     <span
                         class="txt-rotate"
