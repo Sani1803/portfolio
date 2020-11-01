@@ -75,7 +75,9 @@ class MainText extends Component {
                         data-rotate='["a Front-End Developer.", "an Architect.", "a Web Designer.", "a Coder.", "a Team Player." ]'>
                     </span>
                 </p>
-                <button className="cv"> Download CV {element}</button>
+                <a href="/portfolio/CV_Aleksandra_Gjurova.pdf" target="_blank">
+                  <button className="cv"> Download CV {element}</button>
+                </a>
             </div>
         )
     }

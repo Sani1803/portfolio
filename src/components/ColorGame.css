@@ -118,7 +118,7 @@ div.item i {
     text-align: center;
   }
   
-  .img-cg-section:hover .cg-img {
+  .cg-img:hover {
     opacity: 0.8;
   }
 
@@ -127,7 +127,11 @@ div.item i {
     color: white;
   }
   
-  .img-cg-section:hover .middle {
+  .img-cg-section .middle:hover {
+    opacity: 1;
+  }
+
+  .cg-img:hover ~ .middle {
     opacity: 1;
   }
   

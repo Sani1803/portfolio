@@ -7,15 +7,14 @@ export class ColorGame extends Component {
         return (
             <div className="cg-section">
                 
-
                 <div className="img-cg-section">
                     <img className="cg-img"src={colorgame} alt="colorgame"></img>
                     <div className="middle">
-                        <button className="middle-btn">Check it Out !!!</button>
+                        <a href="https://sani1803.github.io/colorgame/">
+                            <button className="middle-btn">Check it Out !!!</button>
+                        </a>
                     </div>
                 </div>
-
-
 
                 <div className="descr-cg-section">
                     <div className="desc-cg">
@@ -29,8 +28,12 @@ export class ColorGame extends Component {
                         HTML, CSS, JavaScript
                         </div>
                         <div className="cg-btns">
-                            <button className="cg-btn" >Website</button>
-                            <button className="cg-btn1">Code</button>
+                            <a href="https://sani1803.github.io/colorgame/">
+                                <button className="cg-btn" >Website</button>
+                            </a> 
+                            <a href="https://github.com/Sani1803/colorgame">
+                                <button className="cg-btn1">Code</button>
+                            </a>
                         </div>
                     </div>
                 </div>
