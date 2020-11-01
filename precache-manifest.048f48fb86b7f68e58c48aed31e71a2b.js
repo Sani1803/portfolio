@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "428cd95f97b1336572c1aeaf6575e4a2",
+    "revision": "1a9fad812fb2476322d7f8ae7e7a92cc",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "7e603279ed0ea771c400",
-    "url": "/portfolio/static/css/main.282d366d.chunk.css"
+    "revision": "8cc22398295e1acaa444",
+    "url": "/portfolio/static/css/main.8a9fe302.chunk.css"
   },
   {
-    "revision": "6deff3e6bc5d0a14dfdc",
-    "url": "/portfolio/static/js/2.6716caf1.chunk.js"
+    "revision": "8a61fc757a8864278725",
+    "url": "/portfolio/static/js/2.d5fa4b3c.chunk.js"
   },
   {
     "revision": "0d6c4affe2a659999d44765f9a17cb4f",
-    "url": "/portfolio/static/js/2.6716caf1.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.d5fa4b3c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e603279ed0ea771c400",
-    "url": "/portfolio/static/js/main.f42b571e.chunk.js"
+    "revision": "8cc22398295e1acaa444",
+    "url": "/portfolio/static/js/main.77ff8bbe.chunk.js"
   },
   {
     "revision": "452cbb7928d2b162740c",
@@ -72,8 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/github.1d7db4b6.png"
   },
   {
+    "revision": "ade8e162802dbbd39d86677c9c379684",
+    "url": "/portfolio/static/media/guitar.ade8e162.png"
+  },
+  {
     "revision": "1a24eb30b62192a737edb684d7358f33",
     "url": "/portfolio/static/media/insta.1a24eb30.png"
+  },
+  {
+    "revision": "837a78e6048e797d94e5adc0952c0861",
+    "url": "/portfolio/static/media/interior-design.837a78e6.png"
   },
   {
     "revision": "5e82a1d65fb35f2f3f4b3255074e7234",
@@ -86,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "38b56e9ffafdeb8cf7055bdd78179281",
     "url": "/portfolio/static/media/name.38b56e9f.png"
+  },
+  {
+    "revision": "28e91324625ee152971e88372dc0ed7e",
+    "url": "/portfolio/static/media/painting.28e91324.png"
   },
   {
     "revision": "dd523d8e39342afd1ebf431ec3be88ed",
@@ -102,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d648bef65aab6e6c8f0ebb8958d55354",
     "url": "/portfolio/static/media/redux.d648bef6.png"
+  },
+  {
+    "revision": "21b7f216130d1a0b26a0ad64e38ae9ab",
+    "url": "/portfolio/static/media/tabletennis.21b7f216.png"
   },
   {
     "revision": "2adbc5f82addbd40ce64e8f2e2c5b55c",
