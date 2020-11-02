@@ -9,7 +9,7 @@ import CardsList from './CardsList';
 export class Projects extends Component {
     render() {
         return (
-            <div className="pr-section">
+            <div className="pr-section" id="portfolio">
                 <div className="prHead">
                     <StaticHeader title="Projects" shortdesc="what I have made"/>
                 </div>

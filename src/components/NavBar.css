@@ -1,25 +1,33 @@
-.navbar {
-	display: flex;
-	font-weight: bold;
-	justify-content: flex-end;
+#mainNavbar {
+    color: black;
+    background: transparent;
 }
 
-nav {
-	display: flex;
-	font-size: 18px;
-	margin: 10px 30px auto auto;
-
+#mainNavbar.scrolled {
+    background-color: #000;
+    color: white;
+    opacity: 0.8;
 }
 
-@media only screen and (max-width: 680px) {
-    header nav {
-        flex-direction: column;
-    }
+.navbar.scrolled {
+    transition: background 500ms;
 }
 
-ul {
-	display: flex;
+#navLinks {
+    display: flex;
+    justify-content: flex-end;
 }
 
+.nav-item {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
+.nav-item:hover {
+    color: rgba(219, 0, 0, 0.911);
+}
 
+.nav-item .active {
+    color: rgba(219, 0, 0, 0.911);
+}

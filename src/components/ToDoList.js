@@ -17,18 +17,26 @@ export class ToDoList extends Component {
                         If you want to add another item that you forgot, just click the + sign.                   
                         <br/>
                         <br/>
-                        <br/>
                         HTML, CSS, JavaScript, jQuery
                         </div>
                         <div className="todo-btns">
-                            <button className="todo-btn">Website</button>
-                            <button className="todo-btn1">Code</button>
+                            <a href="https://sani1803.github.io/todolist/" target="_blank">
+                                <button className="todo-btn">Website</button>
+                            </a>
+                            <a href="https://github.com/Sani1803/todolist" target="_blank">
+                                <button className="todo-btn1">Code</button>
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div className="img-todo-section">
                     <img className="todo-img"src={todolist} alt="todolist"></img>
+                    <div className="todo-middle">
+                        <a href="https://sani1803.github.io/todolist/" target="_blank">
+                            <button className="todo-middle-btn">Check it Out !!!</button>
+                        </a>
+                    </div>
                 </div>
 
             </div>

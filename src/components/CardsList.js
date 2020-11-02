@@ -16,18 +16,26 @@ export class CardsList extends Component {
                         by alphabetical order.
                         <br/>
                         <br/>
-                        <br/>
                         HTML, CSS, JavaScript, React
                         </div>
                         <div className="cards-btns">
-                            <button className="cards-btn">Website</button>
-                            <button className="cards-btn1">Code</button>
+                            <a href="https://sani1803.github.io/cardslist/" target="_blank">
+                                <button className="cards-btn">Website</button>
+                            </a>
+                            <a href="https://github.com/Sani1803/cardslist" target="_blank">
+                                <button className="cards-btn1">Code</button>
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div className="img-cards-section">
                     <img className="cards-img"src={cardslist} alt="cardslist"></img>
+                    <div className="cards-middle">
+                        <a href="https://sani1803.github.io/cardslist/" target="_blank">
+                            <button className="cards-middle-btn">Check it Out !!!</button>
+                        </a>
+                    </div>
                 </div>
 
             </div>

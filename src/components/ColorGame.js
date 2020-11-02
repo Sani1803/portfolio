@@ -9,9 +9,9 @@ export class ColorGame extends Component {
                 
                 <div className="img-cg-section">
                     <img className="cg-img"src={colorgame} alt="colorgame"></img>
-                    <div className="middle">
-                        <a href="https://sani1803.github.io/colorgame/">
-                            <button className="middle-btn">Check it Out !!!</button>
+                    <div className="cg-middle">
+                        <a href="https://sani1803.github.io/colorgame/" target="_blank">
+                            <button className="cg-middle-btn">Check it Out !!!</button>
                         </a>
                     </div>
                 </div>
@@ -24,14 +24,13 @@ export class ColorGame extends Component {
                         It has two modes, easy and hard. In easy mode you have three color options and in hard, six color options. 
                         <br/>
                         <br/>
-                        <br/>
                         HTML, CSS, JavaScript
                         </div>
                         <div className="cg-btns">
-                            <a href="https://sani1803.github.io/colorgame/">
+                            <a href="https://sani1803.github.io/colorgame/" target="_blank">
                                 <button className="cg-btn" >Website</button>
                             </a> 
-                            <a href="https://github.com/Sani1803/colorgame">
+                            <a href="https://github.com/Sani1803/colorgame" target="_blank">
                                 <button className="cg-btn1">Code</button>
                             </a>
                         </div>

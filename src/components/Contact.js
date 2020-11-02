@@ -12,7 +12,7 @@ import linkedin from "./img/linkedin.png";
 export class Contact extends Component {
     render() {
         return (
-            <div className="contact-section">
+            <div className="contact-section" id="contact">
                 <div className="contactHead">
                     <StaticHeader title="Contact" shortdesc="get in touch"/>
                 </div>
@@ -47,14 +47,20 @@ export class Contact extends Component {
                         </div>
                         <div className="social-media">
                             <div className="container">
-                                <img className="icon-c"src={fb} alt="fb"></img>
-                                <img className="icon-c"src={insta} alt="insta"></img>
-                                <img className="icon-c"src={linkedin} alt="linkedin"></img>
+                                <a href="https://www.facebook.com/aleksandra.gjurova/" target="_blank">
+                                    <img className="icon-c"src={fb} alt="fb"></img>
+                                </a>
+                                <a href="https://www.instagram.com/aleksandra.sani/" target="_blank">
+                                    <img className="icon-c"src={insta} alt="insta"></img>
+                                </a>
+                                <a href="https://www.linkedin.com/in/aleksandra-gjurova-a83026164/" target="_blank">
+                                    <img className="icon-c"src={linkedin} alt="linkedin"></img>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="contact-map">
-                        <a href="https://www.google.com/maps/place/Skopje/@41.9991355,21.3818263,12.14z/data=!4m5!3m4!1s0x135415a58c9aa2a5:0xb2ed88c260872020!8m2!3d41.9981294!4d21.4254355?hl=en">
+                        <a href="https://www.google.com/maps/place/Skopje/@41.9991355,21.3818263,12.14z/data=!4m5!3m4!1s0x135415a58c9aa2a5:0xb2ed88c260872020!8m2!3d41.9981294!4d21.4254355?hl=en" target="_blank">
                         <img className = "map-img"src={map} alt="map"></img>
                         </a>
                     </div>   

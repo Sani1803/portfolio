@@ -1,48 +1,100 @@
 import React, { Component } from 'react'
-import './NavBar.css';
+import './Navbar.css';
 import { Link } from 'react-scroll';
 
-class NavBar extends Component {
-
+export class Navbar extends Component {
     constructor(props) {
         super(props)
     
         this.state = {
-             
+            isNavbarOpen: false,
+            isScrolled: false
         }
     }
-    
-    render() {
 
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+    }
+    
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
+    }
+
+    handleScroll = (event) => {
+        console.log('evwindow.pageYOffset', window.pageYOffset)
+        let flag = false;
+        if (window.pageYOffset > 150) {
+            flag = true;
+        }
+
+        this.setState({
+            isScrolled: flag
+        });
+    }
+
+    onCollapseClick = () => {
+        this.setState({
+            isNavbarOpen: !this.state.isNavbarOpen
+        })
+    }
+
+    getNavbarClass() {
+        if (this.state.isNavbarOpen) {
+            return 'show';
+        }
+
+        return '';
+    }
+
+    getScrolledClass() {
+        if (this.state.isScrolled) {
+            return 'scrolled';
+        }
+
+        return '';
+    }
+
+    render() {
         return (
-            <div className="navbar">
-                    <nav>
-                        <ul>
-                            <li>
-                                Home
+            <div>
+                 <nav id="mainNavbar" className={`navbar navbar-dark navbar-expand-md py-0 fixed-top ${this.getScrolledClass()}`} >
+                    {/* <a href="#" class="navbar-brand">CANDY</a> */}
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" onClick = {this.onCollapseClick}></span>
+                    </button>
+                    <div className={`collapse navbar-collapse ${this.getNavbarClass()}`} id="navLinks">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <Link activeClass="active" to="home" spy={true} smooth={true} duration={600}>
+                                    Home
+                                </Link>
                             </li>
-                            <li>
+                            <li class="nav-item">
                                 <Link activeClass="active" to="about" spy={true} smooth={true} duration={600}>
                                     About
                                 </Link>
                             </li>
-                            <li>
+                            <li class="nav-item">
                                 <Link activeClass="active" to="skills" spy={true} smooth={true} duration={600}>
                                     Skills
                                 </Link>
                             </li>
-                            <li>
-                                Projects    
+                            <li class="nav-item">
+                                <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={600}>
+                                    Projects
+                                </Link>  
                             </li>
-                            <li>
-                                Contact    
+                            <li class="nav-item">
+                                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={600}>
+                                    Contact
+                                </Link>
                             </li>
                         </ul>
-                    </nav>
+                    </div>
+                </nav>
             </div>
         )
     }
 }
 
-
-export default NavBar
+export default Navbar

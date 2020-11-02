@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import NavBar from './NavBar';
+import Navbar from './Navbar';
 import './MainSection.css';
 import MainText from './MainText';
 
@@ -15,9 +15,9 @@ class MainSection extends Component {
 
     render() {
         return (
-            <div className="main">
+            <div className="main" id="home">
                 <div className="text">
-                    <NavBar/>
+                    <Navbar/>
                     <MainText/>
                 </div>
             </div>

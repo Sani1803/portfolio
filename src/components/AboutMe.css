@@ -73,6 +73,12 @@
     .hobby-imgs {
         flex-direction: column;
     }
+    .about-me-text {
+        margin-top: 50px;
+    }
+    .h-img {
+        margin-top: 40px;
+    }
 }
 
 @media (max-width:1200px) and (min-width:680px) {

@@ -60,6 +60,11 @@
     display: flex;
 }
 
+.container {
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
 @media only screen and (max-width: 680px) {
     .contact-info {
         flex-direction: column;
@@ -69,7 +74,11 @@
         text-align: justify;
     }
     .map-img {
-        margin-top: 20px;
+        margin-top: 40px;
+        width: 90%;
+    }
+    .container {
+        justify-content: flex-end;
     }
 }
 
