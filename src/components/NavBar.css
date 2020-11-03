@@ -3,10 +3,31 @@
     background: transparent;
 }
 
+#navLinks.collapse.navbar-collapse {
+    display: none;
+    text-align: center;
+}
+
+#navLinks.collapse.navbar-collapse.show {
+    display: block;
+    background-color: #000;
+    opacity: 0.8;
+    color:white;
+}
+
+#mainNavbar.show {
+    background-color: #000;
+    opacity: 0.8;
+}
+
 #mainNavbar.scrolled {
     background-color: #000;
     color: white;
     opacity: 0.8;
+}
+
+#mainNavbar.navbar {
+    justify-content: flex-end;
 }
 
 .navbar.scrolled {

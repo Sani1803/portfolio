@@ -57,7 +57,7 @@ export class Navbar extends Component {
     render() {
         return (
             <div>
-                 <nav id="mainNavbar" className={`navbar navbar-dark navbar-expand-md py-0 fixed-top ${this.getScrolledClass()}`} >
+                 <nav id="mainNavbar" className={`navbar navbar-dark navbar-expand-md py-0 fixed-top ${this.getScrolledClass()} ${this.getNavbarClass()}`} >
                     {/* <a href="#" class="navbar-brand">CANDY</a> */}
                     <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon" onClick = {this.onCollapseClick}></span>
