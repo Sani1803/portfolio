@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a9fad812fb2476322d7f8ae7e7a92cc",
+    "revision": "a53804ec85ed625e477cfa30efa2d334",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "8cc22398295e1acaa444",
-    "url": "/portfolio/static/css/main.8a9fe302.chunk.css"
+    "revision": "31dcc94004d1d8f12e93",
+    "url": "/portfolio/static/css/2.3cf5d70f.chunk.css"
   },
   {
-    "revision": "8a61fc757a8864278725",
-    "url": "/portfolio/static/js/2.d5fa4b3c.chunk.js"
+    "revision": "fc68dc0358ac109529f4",
+    "url": "/portfolio/static/css/main.0837a4af.chunk.css"
   },
   {
-    "revision": "0d6c4affe2a659999d44765f9a17cb4f",
-    "url": "/portfolio/static/js/2.d5fa4b3c.chunk.js.LICENSE.txt"
+    "revision": "31dcc94004d1d8f12e93",
+    "url": "/portfolio/static/js/2.a2e846ca.chunk.js"
   },
   {
-    "revision": "8cc22398295e1acaa444",
-    "url": "/portfolio/static/js/main.77ff8bbe.chunk.js"
+    "revision": "b13e737c23346402089bf79c557ecf58",
+    "url": "/portfolio/static/js/2.a2e846ca.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "fc68dc0358ac109529f4",
+    "url": "/portfolio/static/js/main.23c832b5.chunk.js"
   },
   {
     "revision": "452cbb7928d2b162740c",
@@ -28,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/BackIMG-mob.c12fd50f.jpg"
   },
   {
-    "revision": "d8d68425d227ca057e76b03102a11e8d",
-    "url": "/portfolio/static/media/BackIMG.d8d68425.jpg"
+    "revision": "3ed199d658cfbe4a60399b5eed30d76a",
+    "url": "/portfolio/static/media/BackIMG.3ed199d6.jpg"
   },
   {
     "revision": "03ab5628adaa8a10bef7a3c871ba6d80",
@@ -72,16 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/github.1d7db4b6.png"
   },
   {
-    "revision": "ade8e162802dbbd39d86677c9c379684",
-    "url": "/portfolio/static/media/guitar.ade8e162.png"
+    "revision": "8425529fa457c5f723f2bd0b90200abf",
+    "url": "/portfolio/static/media/guitar.8425529f.png"
   },
   {
     "revision": "1a24eb30b62192a737edb684d7358f33",
     "url": "/portfolio/static/media/insta.1a24eb30.png"
   },
   {
-    "revision": "837a78e6048e797d94e5adc0952c0861",
-    "url": "/portfolio/static/media/interior-design.837a78e6.png"
+    "revision": "1770eeda1967d23c2469d6aef8c46272",
+    "url": "/portfolio/static/media/interior-design.1770eeda.png"
   },
   {
     "revision": "5e82a1d65fb35f2f3f4b3255074e7234",
@@ -96,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/name.38b56e9f.png"
   },
   {
-    "revision": "28e91324625ee152971e88372dc0ed7e",
-    "url": "/portfolio/static/media/painting.28e91324.png"
+    "revision": "5a1161499263fa168ed1a537a6263a85",
+    "url": "/portfolio/static/media/painting.5a116149.png"
   },
   {
     "revision": "dd523d8e39342afd1ebf431ec3be88ed",
@@ -116,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/redux.d648bef6.png"
   },
   {
-    "revision": "21b7f216130d1a0b26a0ad64e38ae9ab",
-    "url": "/portfolio/static/media/tabletennis.21b7f216.png"
+    "revision": "2153f1413ed70372629c2282b45ad209",
+    "url": "/portfolio/static/media/tabletennis.2153f141.png"
   },
   {
     "revision": "2adbc5f82addbd40ce64e8f2e2c5b55c",
