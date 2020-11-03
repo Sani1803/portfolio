@@ -60,32 +60,32 @@ export class Navbar extends Component {
                  <nav id="mainNavbar" className={`navbar navbar-dark navbar-expand-md py-0 fixed-top ${this.getScrolledClass()} ${this.getNavbarClass()}`} >
                     {/* <a href="#" class="navbar-brand">CANDY</a> */}
                     <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon" onClick = {this.onCollapseClick}></span>
+                        <span class={`navbar-toggler-icon ${this.getScrolledClass()}`} onClick = {this.onCollapseClick}></span>
                     </button>
                     <div className={`collapse navbar-collapse ${this.getNavbarClass()}`} id="navLinks">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <Link activeClass="active" to="home" spy={true} smooth={true} duration={600}>
+                                <Link activeClass="active" to="home" spy={true} smooth={true} duration={600} onClick = {this.onCollapseClick}>
                                     Home
                                 </Link>
                             </li>
                             <li class="nav-item">
-                                <Link activeClass="active" to="about" spy={true} smooth={true} duration={600}>
+                                <Link activeClass="active" to="about" spy={true} smooth={true} duration={600} onClick = {this.onCollapseClick}>
                                     About
                                 </Link>
                             </li>
                             <li class="nav-item">
-                                <Link activeClass="active" to="skills" spy={true} smooth={true} duration={600}>
+                                <Link activeClass="active" to="skills" spy={true} smooth={true} duration={600} onClick = {this.onCollapseClick}>
                                     Skills
                                 </Link>
                             </li>
                             <li class="nav-item">
-                                <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={600}>
+                                <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={600} onClick = {this.onCollapseClick}>
                                     Projects
                                 </Link>  
                             </li>
                             <li class="nav-item">
-                                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={600}>
+                                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={600} onClick = {this.onCollapseClick}>
                                     Contact
                                 </Link>
                             </li>

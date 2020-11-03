@@ -19,11 +19,12 @@ class AboutMe extends Component {
                     
                     <div className="text-container">
                         <p className="about-me-text">
-                        &nbsp;&nbsp;Beginner in the IT Sector, fast learner and ambitious, having good logical, analytical and problem-solving skills, looking for a job as Front End Developer or QA Tester.
+                        &nbsp;&nbsp;&nbsp;&nbsp;I am a beginner in the IT Sector, fast learner, hard worker and very ambitious person with the <b><em>'I can do this'</em></b> attitude!
+                        I enjoy the process of problem solving on daily basis, working on improving and meeting the needs of a project at a highest level possible using logical and analytical skills. 
                         <br />
-                        &nbsp;&nbsp;I am a career-changer from being an architect to starting as a front-end developer. I took the self-directed path using online resources like Udemy, FreeCodeCamps, Codevolution. I am ambitious, a hardworker with the 'I can do this' attitude!
+                        &nbsp;&nbsp;&nbsp;&nbsp;I am a career-changer from being an architect to starting as a <b><em>Front End Developer.</em></b> I took the self-directed path using online resources like Udemy, FreeCodeCamps, Codevolution.
                         <br />
-                        &nbsp;&nbsp;So far I have knowledge of HTML, CSS, Bootstrap, JavaScript, jQuery and React. Because of being an architect I have great knowledge of a lot of programs, some of them even helped me in the IT Sector as well, like AutoCad, Adobe Photoshop and Sony Vegas.
+                        &nbsp;&nbsp;&nbsp;&nbsp;So far I have knowledge of HTML, CSS, Bootstrap, JavaScript, jQuery and React, but I am also eager to learn new technologies. I offer a great knowledge of a lot of other programs that I believe can benefit me in the IT Sector as well, like AutoCAD, Adobe Photoshop and Sony Vegas.
                         </p>
                     </div>
                 </div>

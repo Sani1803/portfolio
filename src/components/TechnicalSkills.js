@@ -17,7 +17,7 @@ export class TechnicalSkills extends Component {
         return (
             <div className="techskills-section" id="skills">
                 <div className="tsHead">
-                    <StaticHeader title="Technical Skills" shortdesc="who do I use"/>
+                    <StaticHeader title="Technical Skills" shortdesc="what do I use"/>
                 </div>
                
                 <div className="tech-skills">
