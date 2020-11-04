@@ -1,6 +1,6 @@
 .intro {
     margin-left: 10%;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 .main-name {
@@ -25,7 +25,7 @@ h1 {
     margin: 0;
     padding: 0;
     font-size: 35px;
-    min-height: 200px;
+    min-height: 180px;
 }
 
 .txt-rotate {
@@ -36,7 +36,6 @@ h1 {
 }
 
 .cv {
-    margin-top: 60px;
     padding: 10px;
     width: 200px;
     background-color: #b9b5b5;
@@ -54,7 +53,7 @@ h1 {
 
 @media only screen and (max-width: 680px) {
     .hello {
-        margin-top: 90px;
+        margin-top: 40px;
         margin-bottom: 20px;
     }
     .cv {
