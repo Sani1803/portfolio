@@ -149,6 +149,7 @@
     max-width: 90%;
     margin-bottom: 18px;
     box-shadow: 5px 5px 5px rgb(53, 0, 0);
+    height: 100%;
     }
     .todo-info {
         margin-top: 30px;
