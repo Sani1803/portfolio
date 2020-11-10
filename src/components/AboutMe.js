@@ -7,7 +7,92 @@ import tabletennis from "./img/tabletennis.png";
 import interiordesign from "./img/interior-design.png";
 import guitar from "./img/guitar.png";
 
+import { Button,Modal } from 'react-bootstrap'
+import int0 from "./img/interior/00int.jpg";
+import int1 from "./img/interior/01int.jpg";
+import int2 from "./img/interior/02int.jpg";
+import int3 from "./img/interior/03int.jpg";
+import int4 from "./img/interior/04int.jpg";
+import int5 from "./img/interior/05int.jpg";
+import int6 from "./img/interior/06int.jpg";
+import int7 from "./img/interior/07int.jpg";
+import int8 from "./img/interior/08int.jpg";
+import int9 from "./img/interior/09int.jpg";
+import int10 from "./img/interior/10int.jpg";
+import int11 from "./img/interior/11int.jpg";
+import int12 from "./img/interior/12int.jpg";
+// import ModalDialog from 'react-bootstrap/ModalDialog';
+
+import "react-image-gallery/styles/css/image-gallery.css";
+import ImageGallery from 'react-image-gallery';
+
 class AboutMe extends Component {
+
+    constructor(){
+        super();
+        this.state = {
+            showHide : false,
+            imagesList: [
+                {
+                    original: int0,
+                    thumbnail: int0,
+                },
+                {
+                    original: int1,
+                    thumbnail: int1,
+                },
+                {
+                    original: int2,
+                    thumbnail: int2,
+                },
+                {
+                    original: int3,
+                    thumbnail: int3,
+                },
+                {
+                    original: int4,
+                    thumbnail: int4,
+                },
+                {
+                    original: int5,
+                    thumbnail: int5,
+                },
+                {
+                    original: int6,
+                    thumbnail: int6,
+                },
+                {
+                    original: int7,
+                    thumbnail: int7,
+                },
+                {
+                    original: int8,
+                    thumbnail: int8,
+                },
+                {
+                    original: int9,
+                    thumbnail: int9,
+                },
+                {
+                    original: int10,
+                    thumbnail: int10,
+                },
+                {
+                    original: int11,
+                    thumbnail: int11,
+                },
+                {
+                    original: int12,
+                    thumbnail: int12,
+                }
+            ]
+        }
+    }
+
+    handleModalShowHide() {
+        this.setState({ showHide: !this.state.showHide })
+    }
+
     render() {
         return (
             <div className="about-me-section" id="about">
@@ -43,10 +128,30 @@ class AboutMe extends Component {
                             <img className = "himg"src={tabletennis} alt="tabletennis"></img>
                             <div className="h-text">Table Tennis</div>
                         </div>
+
+
                         <div className="h-img">
-                            <img className = "himg"src={interiordesign} alt="interiordesign"></img>
+                            <img className = "himg modalinterior"src={interiordesign} alt="interiordesign" onClick={() => this.handleModalShowHide()}></img>
                             <div className="h-text">Interior Design</div>
                         </div>
+            
+                        <Modal size="lg" show={this.state.showHide}>
+                            <Modal.Header closeButton onClick={() => this.handleModalShowHide()}>
+                                <Modal.Title className="modal-title">Interior Design - 3D Visualization</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                                <ImageGallery
+                                    items={this.state.imagesList}
+                                    showBullets={true}
+                                />
+                            </Modal.Body>
+                            <Modal.Footer>
+                                {/* <Button variant="secondary" onClick={() => this.handleModalShowHide()}>
+                                    Close
+                                </Button> */}
+                            </Modal.Footer>
+                        </Modal>
+
                         <div className="h-img">
                             <img className = "himg"src={guitar} alt="guitar"></img>
                             <div className="h-text">Guitar</div>
