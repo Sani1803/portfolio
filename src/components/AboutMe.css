@@ -117,6 +117,12 @@ div.modal-header {
 }
 
 @media (max-width:1200px) and (min-width:680px) {
+    .about-me {
+        flex-direction: column; 
+    }
+    .about-me-text {
+        margin-top: 50px;
+    }
     .hobby-imgs  {
         max-width: 600px;
     }
