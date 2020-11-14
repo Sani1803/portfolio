@@ -66,6 +66,14 @@
     opacity: 0.6;
 }
 
+.modalinteriortext:hover {
+    cursor: pointer;
+}
+
+.modalinteriortext {
+    text-decoration: underline;
+}
+
 .h-img {
     display: flex;
     flex-direction: column;

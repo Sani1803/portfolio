@@ -7,7 +7,7 @@ import tabletennis from "./img/tabletennis.png";
 import interiordesign from "./img/interior-design.png";
 import guitar from "./img/guitar.png";
 
-import { Button,Modal } from 'react-bootstrap'
+import {Modal} from 'react-bootstrap'
 import int0 from "./img/interior/00int.jpg";
 import int1 from "./img/interior/01int.jpg";
 import int2 from "./img/interior/02int.jpg";
@@ -21,7 +21,6 @@ import int9 from "./img/interior/09int.jpg";
 import int10 from "./img/interior/10int.jpg";
 import int11 from "./img/interior/11int.jpg";
 import int12 from "./img/interior/12int.jpg";
-// import ModalDialog from 'react-bootstrap/ModalDialog';
 
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery';
@@ -132,7 +131,7 @@ class AboutMe extends Component {
 
                         <div className="h-img">
                             <img className = "himg modalinterior"src={interiordesign} alt="interiordesign" onClick={() => this.handleModalShowHide()}></img>
-                            <div className="h-text">Interior Design</div>
+                            <div className="h-text modalinteriortext" onClick={() => this.handleModalShowHide()}>Interior Design</div>
                         </div>
             
                         <Modal size="lg" show={this.state.showHide}>

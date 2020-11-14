@@ -21,7 +21,6 @@ export class Navbar extends Component {
     }
 
     handleScroll = (event) => {
-        console.log('evwindow.pageYOffset', window.pageYOffset)
         let flag = false;
         if (window.pageYOffset > 150) {
             flag = true;
